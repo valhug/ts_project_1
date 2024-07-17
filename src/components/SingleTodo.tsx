@@ -57,7 +57,7 @@ const SingleTodo: React.FC<{
               ref={inputRef} 
             />
           ) : todo.isDone ? (
-            <span className="todos__single--text">{todo.todo}</span>
+            <s className="todos__single--text">{todo.todo}</s>
           ) : (
             <span className="todos__single--text">{todo.todo}</span>
           )}
